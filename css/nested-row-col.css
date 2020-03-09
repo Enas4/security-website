@@ -1,0 +1,20 @@
+.cbox{
+   
+    border: 2px solid yellow;
+}
+.row{
+    
+    border: 2px solid greenyellow;
+}
+
+.adiv{
+    
+    background-color: honeydew;
+}
+.bdiv{
+   
+     background-color: khaki;
+}
+.cdiv{
+    border: 2px solid palevioletred;
+}

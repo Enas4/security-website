@@ -1,0 +1,31 @@
+.cbox{
+    border: 2px solid red;
+}
+.arow{
+    border: 10px solid yellow;
+}
+
+.adiv{
+    height: 60px;
+    background-color: teal;
+}
+.bdiv{
+    height: 60px;
+    background-color: yellowgreen;
+}
+.cdiv{
+    height: 60px;
+    background-color: hotpink;
+}
+.ddiv{
+    height: 60px;
+    background-color:tan;
+}
+.ediv{
+    height: 60px;
+    background-color: thistle;
+}
+.fdiv{
+    height: 60px;
+    background-color: turquoise;
+}

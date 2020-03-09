@@ -1,0 +1,33 @@
+.btn{
+    margin-left: 20px;
+}
+.bdr{
+    height: 20px;
+    background-color: aqua;
+    border: 2px solid red;
+}
+.bdr1{
+    height: 20px;
+    background-color: blueviolet;
+    border:  2px solid greenyellow;
+}
+.bdr2{
+    height: 30px;
+    background-color: rgb(240, 24, 132);
+}
+.bdr3{
+    height: 30px;
+    background-color: rgb(211, 46, 46);
+}
+.class{
+    height: 500px;
+    width: 800px;
+    border: 1px solid blue;
+}
+.dbox{
+    background-color: rgb(212, 92, 116);
+    border: 1px solid blue;
+}
+.cbox{
+    border:2px solid red;
+}

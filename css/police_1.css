@@ -1,0 +1,288 @@
+ /* header starts here */
+
+ .cfbox{
+    height: 60px;
+    background-color: black;
+}
+.cfbox .row i{
+    text-align: center;
+    padding: 7px;
+     margin:5px; 
+     color: white;
+    width: 30px;
+    height: 30px;
+}
+.cfbox .row .social-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;  
+    color: white;
+}
+.cfbox .row .social-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold; 
+    color: white; 
+}
+
+/* header ends here */
+
+/* navbar starts here */
+
+.nav-cont{
+    margin-left: 300px;
+   height: 130px;
+}
+.nav-cont .navbar-nav{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.nav-cont .navbar-nav .nav-item .nav-link{
+    margin-left: 20px;
+    font-size: 0.9rem;
+        font-weight: 500;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-cont .navbar-nav .nav-item .active{
+    color: rgb(56, 159, 248)!important;
+}
+.nav-cont .navbar-nav .nav-item .nav-link:hover{
+    color: rgb(56, 159, 248)!important   
+}
+
+
+/* navbar ends here */
+
+
+/* <black div starts here */
+
+.black{
+    background: url("/home/enas/data/CSS folder/bootstrap-4.4.1-dist/others-bg.jpg");
+    height: 300px;
+        }
+.black .black-cont .row h1{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  margin-top: 80px;
+  font-size: 3em;
+  color: white;  
+}
+.black .black-cont .row p{
+  font-family: 'Roboto';
+  color: white;
+ font-weight: 300;
+ font-size: 1.1em;
+}
+.black .black-cont .row .nav{
+  margin-top: 90px;
+  margin-left: 350px;
+  font-weight: bold;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: white !important;
+}
+.black .black-cont .row .nav li{
+  margin-top: 60px;
+}
+.black .black-cont .row .nav li a{color: white;}
+.black .black-cont .row .nav li a:hover{color: blue;}
+.black .black-cont .row .nav li:last-child{
+  padding-left: 10px;
+   color: rgb(219, 217, 217);
+  }
+
+  /* black div ends here */
+
+     /* .skilled div starts here */
+
+.skilled .row h1{ 
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+.skilled .row h5{
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    color: #777;
+    letter-spacing: 2px;
+}
+.skilled .row h4{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #5aaff7;
+    letter-spacing: 1px;
+}
+
+     /* .skilled div ends here */
+
+        /* .our_history div starts here */
+        .our_history h1{
+            font-family: 'Roboto';
+            font-size: 30px;
+            font-weight: 300;
+            }
+            .our_history hr{
+             width: 15%;
+            height: 3px;
+            background: rgb(56, 159, 248);
+            }
+            .our_history p{
+            font-size: 14px;
+            color: #777;
+            font-family: 'Roboto';
+            line-height: 1.9rem;
+            }
+
+         /* .our_history div ends here */
+
+   
+           /* .our_mission div starts here */
+
+           .mission_statement h2{
+            font-family: 'Roboto Condensed';
+           }
+           .mission_statement p{
+            font-size: 14px;
+            color: #777;
+            font-family: 'Roboto';
+            line-height: 1.9rem;
+           }  
+           .mission_statement2 h2{
+            font-family: 'Roboto Condensed';
+           }
+           .mission_statement2 p{font-size: 14px;
+            color: #777;
+            font-family: 'Roboto';
+            line-height: 1.9rem;
+        }
+
+         /* .our_mission div ends here */
+    
+
+   
+    
+    /* last div starts here*/
+
+    .footer {
+        min-height: 83vh;
+        width: 100vw;
+        background: url(/home/enas/data/bootstrap-4.4.1-dist/map2.png) #2c2e30;
+        padding: 6rem 0rem 2rem 0rem;
+    }
+    .footer img {
+        margin-top: 10vh;
+        width: 15rem;
+    }
+    .footer-ribbon {
+        background: #2C2E30;
+        width: 100%;
+        padding: 1rem 2rem 0.5rem !important;
+        box-shadow: 0rem 0rem 0.1rem black, 0rem -2rem 2rem rgba(0, 0, 0, .1) inset;
+        margin-top: 0.9rem;
+    }
+    
+    .footer-ribbon .circle {
+        border: 1px solid rgb(56, 159, 248);
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        position: relative;
+        margin-bottom: 0.2rem;
+    }
+    
+    .footer-ribbon .fa-location-arrow, .footer-ribbon .fa-envelope, .footer-ribbon .fa-phone {
+        width: 5rem;
+        height: 1.2rem;
+        position: absolute;
+        top: 2.1rem;
+        left: 1.8rem;
+        color: white;
+    }
+    
+    .footer-ribbon h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #E7E7E8 !important;
+    }
+    
+    .footer-ribbon p {
+        font-size: 0.9rem;
+        color: white;
+    }
+    .footer ul {
+        margin-top: 2rem;
+    }
+    
+    .footer ul li {
+        border: 1px solid White;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 100%;
+        transition: all .2s;
+    }
+    
+    .footer ul li a {
+        color: white;
+        transition: all .2s;
+    }
+    
+    .footer ul li a:hover {
+        color: #5aaff7;
+    }
+    
+    .footer .copyright {
+        color: #777676;
+        margin-top: 4rem;
+    }
+    
+    .footer .designer {
+        color: #777676;
+    }
+    .footer .designer span{
+        color: #5aaff7;
+    }
+
+    /* last div ends here*/
+
+   
+
+     /* extra small screen */
+
+     @media (max-width:575px){
+        .cfbox .row{background-color: black;}
+        .nav-cont{margin-top: 10px;}
+    
+    }
+
+
+          /* small screen */
+
+
+    @media (max-width:767px){
+        .cfbox .row{
+            background-color: black;
+        }
+        .nav-cont{
+            margin-top: 100px;
+            margin-left: 0px;
+        }
+        .black .black-cont .row .nav{
+          margin-left: 100px;
+          margin-top: -50px;
+        }
+    }
+        /* medium screen */
+
+        @media (max-width: 1100px) {
+            .nav-cont{ margin-left: 0px;}
+            .black .black-cont .row .nav{margin-left: 100px;}
+    }
+
+
+         /* large screen */
+ @media (max-width: 1199px){
+    .black .black-cont .row .nav{margin-left: 100px;}
+    } 
+    

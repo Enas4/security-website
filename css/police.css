@@ -1,0 +1,415 @@
+/* header starts here */
+body{
+    widows: 100%;
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+}
+.cfbox{
+    height: 60px;
+    widows: 100px;
+    background-color: black;
+}
+.cfbox .row i{
+    text-align: center;
+    padding: 7px;
+     margin:5px; 
+     color: white;
+    width: 30px;
+    height: 30px;
+}
+.cfbox .row .social-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;  
+    /* padding: 20px; */
+    color: white;
+}
+.cfbox .row .social-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold; 
+    color: white; 
+}
+
+/* header ends here */
+
+/* navbar starts here */
+.cf{
+    height: 570px;
+     background: url("/home/enas/data/CSS folder/bootstrap-4.4.1-dist/police-header.jpeg"); 
+}
+.nav-cont{
+    margin-left: 300px;
+   height: 130px;
+}
+.nav-cont .navbar-nav{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.nav-cont .navbar-nav .nav-item .nav-link{
+    margin-left: 20px;
+    font-size: 0.9rem;
+        font-weight: 500;
+    color:whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-cont .navbar-nav .nav-item .active{
+    color: rgb(56, 159, 248)!important;
+}
+.nav-cont .navbar-nav .nav-item .nav-link:hover{
+    color: rgb(56, 159, 248)!important   
+}
+
+
+/* navbar ends here */
+
+
+   /* we aim div starts here */
+.weaim{
+    margin-top: 130px;
+}
+  .weaim h1{
+     font-weight: 700;
+     font-size: 2.5em;
+     color: white;
+     font-family: 'Roboto Condensed', sans-serif;
+     margin-bottom: 40px;
+ }
+ .weaim p{
+     color:white;
+     font-weight: 500;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-bottom: 51px;
+ } 
+ .weaim .row .btn{
+ border-radius: 0 !important;
+    display: block !important;
+    background: rgb(56, 159, 248);
+    margin: auto !important;
+    border: 0;
+    width: 12rem;
+    height: 3.2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+     padding-top: 1rem;
+}
+
+/* we aim div ends here */
+ 
+ /* security solution div starts here */
+.secsolution {
+ background-color: whitesmoke;
+  height:450px;
+}
+.secsolution h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 2.25em;
+}
+.secsolution h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.secsolution h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.secsolution h5{
+    margin-left: 40px;
+}
+.secsolution p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(71, 71, 71);
+    font-size: 0.95em;
+}
+.secsolution  hr{
+    width: 100px;
+    height: 3px;
+    margin-left: 40px;;
+    border: 0;
+    margin-top: 15px;
+    background-color: rgb(56, 159, 248);
+    margin-bottom: 20px;
+}
+.secsolution button{
+    text-align: center;
+    color:white;
+    border: 0;
+    background: rgb(43, 151, 245);
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 12px 20px 14px 0px;
+    margin-top: 20px;
+    width: 150px;
+    position: relative;
+}
+.secsolution button i{
+    position: absolute;
+    left: 140px;
+    top: -0px;
+    background-color: rgb(16, 120, 206);
+    padding: 17px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.secsolution ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(71, 71, 71);
+}
+.secsolution i{
+    margin-right: 10px;
+}
+
+/* security solution div ends here */
+
+ /* grey div starts here */
+
+
+                /* grey div starts here */
+
+                .grey{
+                    background-color: rgb(51, 51, 51);
+                } 
+                .grey .row{
+                    padding-top: 70px;
+                    margin-left: 100px;
+                }
+                .grey .row p{
+                    color: white;
+                    font-weight: 400;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    margin-top: 30px;
+                    font-size: 1em;
+                    line-height: 1.5em;
+                    color: whitesmoke;
+                    margin-bottom: 30px;
+                } 
+                .grey .row h4{
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-weight: 400;
+                    color: whitesmoke;
+                    font-size: 1.6em;
+                    padding-bottom: 10px;
+                }
+                .grey .row h2{
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-weight: 400;
+                    color: whitesmoke;
+                    font-size: 1.3em;
+                }
+                .grey .row h3{
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-weight: 400;
+                    color: whitesmoke;
+                    font-size: 2.25em;
+                    margin-top: 100px;
+                }
+                .grey .row hr{
+                    width: 90px;
+                    height: 4px;
+                    margin-left: 0px;
+                    border: 0;
+                    background-color: rgb(56, 159, 248);
+                    margin-bottom: 15px;
+                }
+                .grey .row .btn{
+                    border-radius: 0 !important;
+                    display: block !important;
+                    background: rgb(56, 159, 248);
+                    border: 0;
+                    width: 12rem;
+                    height: 3.2rem;
+                    font-size: 0.8rem;
+                    font-weight: bold;
+                    letter-spacing: 0.1rem;
+                     padding-top: 1rem;
+                }
+    
+           /* grey div ends here */
+
+           /* white div starts here */
+            .white-div{
+                height: 200px;
+                background-color: whitesmoke;
+            }
+           .white-div .row p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 2.5em;
+            font-weight: lighter;
+            margin-left: 120px;
+           
+        }
+        .white-div button{
+            /* width: 220px; */
+            color: white;
+            background-color:  rgb(43, 151, 245);
+            font-weight: bolder;
+            font-size: 0.85em;
+            letter-spacing: 0.1em;
+            border: 0px;
+            padding: 15px 10px 15px 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        }
+
+           /* white div ends here */
+
+          /* last div starts here*/
+
+    .footer {
+        min-height: 83vh;
+        width: 100vw;
+        background: url(/home/enas/data/bootstrap-4.4.1-dist/map2.png) #2c2e30;
+        padding: 6rem 0rem 2rem 0rem;
+    }
+    .footer img {
+        margin-top: 10vh;
+        width: 15rem;
+    }
+    .footer-ribbon {
+        background: #2C2E30;
+        width: 100%;
+        padding: 1rem 2rem 0.5rem !important;
+        box-shadow: 0rem 0rem 0.1rem black, 0rem -2rem 2rem rgba(0, 0, 0, .1) inset;
+        margin-top: 0.9rem;
+    }
+    
+    .footer-ribbon .circle {
+        border: 1px solid rgb(56, 159, 248);
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        position: relative;
+        margin-bottom: 0.2rem;
+    }
+    
+    .footer-ribbon .fa-location-arrow, .footer-ribbon .fa-envelope, .footer-ribbon .fa-phone {
+        width: 5rem;
+        height: 1.2rem;
+        position: absolute;
+        top: 2.1rem;
+        left: 1.8rem;
+        color: white;
+    }
+    
+    .footer-ribbon h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #E7E7E8 !important;
+    }
+    
+    .footer-ribbon p {
+        font-size: 0.9rem;
+        color: white;
+    }
+    .footer ul {
+        margin-top: 2rem;
+    }
+    
+    .footer ul li {
+        border: 1px solid White;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 100%;
+        transition: all .2s;
+    }
+    
+    .footer ul li a {
+        color: white;
+        transition: all .2s;
+    }
+    
+    .footer ul li a:hover {
+        color: #5aaff7;
+    }
+    
+    .footer .copyright {
+        color: #777676;
+        margin-top: 4rem;
+    }
+    
+    .footer .designer {
+        color: #777676;
+    }
+    .footer .designer span{
+        color: #5aaff7;
+    }
+
+    /* last div ends here*/
+
+
+/* extra small screen */
+
+@media (max-width:575px){
+
+
+    .cf .nav-cont .navbar .navbar-toggler{
+        border:black;
+        background: darkgrey;
+    }
+    .cfbox .row{background-color: black;}
+    .cf .nav-cont{margin-top: 10px;}
+    .weaim{margin-top: 30px;}
+    .secsolution{
+        height: 900px;
+        background-color: whitesmoke;
+    }
+    .grey .btn{margin-bottom: 30px;}
+    .grey .row .pr-5 {margin-left: -20px;}
+    .grey .row .col-12 {margin-left: -80px;}
+    .white-div{
+        height:250px;
+    }
+}
+
+
+      /* small screen */
+
+@media (max-width:767px){
+    .weaim{margin-top: 18px;}
+    .cf .nav-cont .navbar .navbar-toggler{
+        border:black;
+        background: darkgrey;
+    }
+    .cfbox .row{
+        background-color: black;
+    }
+   .cf .nav-cont{
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    .black .black-cont .row .nav{
+      margin-left: 100px;
+      margin-top: -50px;
+    }
+    .secsolution{
+        height: 900px;
+        background-color: whitesmoke;
+    }
+    .grey .btn{margin-bottom: 30px;}
+}
+    /* medium screen */
+    @media (max-width: 1100px) {
+        .nav-cont{ margin-left: 0px;}
+        .black .black-cont .row .nav{margin-left: 100px;}
+        .secsolution{
+            height: 900px;
+            background-color: whitesmoke;
+        }
+        .grey .btn{margin-bottom: 30px;}
+}
+
+
+     /* large screen */
+@media (max-width: 1199px){
+/* .black .black-cont .row .nav{margin-left: 100px;} */
+} 

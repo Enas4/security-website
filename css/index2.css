@@ -1,0 +1,26 @@
+.cbox{
+    border: 2px solid black;
+}
+.arow{
+    border: 10px solid yellow;
+}
+.adiv{
+    height: 60px;
+    background-color: magenta;
+}
+.bdiv{
+    height: 60px;
+    background-color: wheat;
+}
+.cdiv{
+    height: 60px;
+    background-color: tomato;
+}
+.ddiv{
+    height: 60px;
+    background-color: turquoise;
+}
+.ediv{
+    height: 60px;
+    background-color: mediumpurple;
+}

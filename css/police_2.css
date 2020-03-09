@@ -1,0 +1,330 @@
+    /* header starts here */
+
+.cfbox{
+    height: 60px;
+    background-color: black;
+}
+.cfbox .row i{
+    text-align: center;
+    padding: 7px;
+     margin:5px; 
+     color: white;
+    width: 30px;
+    height: 30px;
+}
+.cfbox .row .social-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;  
+    /* padding: 20px; */
+    color: white;
+}
+.cfbox .row .social-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold; 
+    color: white; 
+}
+
+/* header ends here */
+
+/* navbar starts here */
+
+.nav-cont{
+    margin-left: 300px;
+   height: 130px;
+}
+.nav-cont .navbar-nav{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.nav-cont .navbar-nav .nav-item .nav-link{
+    margin-left: 20px;
+    font-size: 0.9rem;
+        font-weight: 500;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-cont .navbar-nav .nav-item .active{
+    color: rgb(56, 159, 248)!important;
+}
+.nav-cont .navbar-nav .nav-item .nav-link:hover{
+    color: rgb(56, 159, 248)!important   
+}
+
+
+/* navbar ends here */
+
+
+/* <black div starts here */
+
+  .black{
+      background: url("/home/enas/data/CSS folder/bootstrap-4.4.1-dist/others-bg.jpg");
+      height: 300px;
+          }
+.black .black-cont .row h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    font-size: 3em;
+    color: white;  
+}
+.black .black-cont .row p{
+    font-family: 'Roboto';
+    color: white;
+   font-weight: 300;
+   font-size: 1.1em;
+}
+.black .black-cont .row .nav{
+    margin-top: 90px;
+    margin-left: 350px;
+    font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: white !important;
+}
+.black .black-cont .row .nav li{
+    margin-top: 60px;
+}
+.black .black-cont .row .nav li a{color: white;}
+.black .black-cont .row .nav li a:hover{color: blue;}
+.black .black-cont .row .nav li:last-child{
+    padding-left: 10px;
+     color: rgb(219, 217, 217);
+    }
+
+    /* black div ends here */
+
+.our_expertise .row h2{
+    margin-top: 40px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1.75em;  
+   font-weight: 400; 
+   padding-bottom: 10px;
+}
+.our_expertise .row h1{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+   font-size: 2em;
+   padding-bottom: 10px;
+}
+.our_expertise .row hr{
+    height: 4px;
+    width: 70px;
+    background-color: rgb(56, 159, 248);
+    border:0px;
+    margin-left: initial;
+}
+.our_expertise .row .para1{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+   line-height: 1.75em;
+   font-weight: bold;
+   color: rgb(66, 66, 66);
+}
+.our_expertise .row .para2{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   line-height: 1.5em;
+}
+.our_expertise img{
+   width: 400px;
+   height: 500px;
+   margin-left: 80px;
+   margin-top: 20px;
+}
+
+     /*.premium_security starts here*/
+
+.premium_security{
+    height: 200px; 
+    background-color: whitesmoke;
+}
+.premium_security p{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: italic;
+   font-weight: bold;
+   color: rgb(66, 66, 66);
+}
+.premium_security h2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+font-size: 1.85em;
+text-align: center;
+}
+.premium_security hr{
+height: 4px;
+width: 220px;
+background-color: rgb(56, 159, 248);
+border:0px;
+}
+
+        /*.premium_security ends here*/
+
+      
+     /* fifteen boxes starts here */
+
+
+    .services .service-box {
+        height: 19.5rem;
+        background: whitesmoke;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .services .service-box i {
+        font-size: 40px;
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .services .service-box h5 {
+        font-size: 16px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    
+    .services .service-box-underline {
+        width: 50px;
+        height: 7px;
+        border: 1px solid rgba(25, 134, 230, 1);
+        margin: auto;
+        margin-top: 1.2rem;
+    }
+    
+    .service-box-content {
+        font-style: normal !important;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin-top: 2rem;
+        font-weight: 300 !important;
+        font-size: 14px !important;
+    }
+
+         /* fifteen boxes ends here */
+
+    /* footer starts here*/
+
+    .footer {
+        min-height: 83vh;
+        width: 100vw;
+        background: url(/home/enas/data/bootstrap-4.4.1-dist/map2.png) #2c2e30;
+        padding: 6rem 0rem 2rem 0rem;
+    }
+    
+    .footer img {
+        margin-top: 10vh;
+        width: 15rem;
+    }
+    .footer-ribbon {
+        background: #2C2E30;
+        width: 100%;
+        padding: 1rem 2rem 0.5rem !important;
+        box-shadow: 0rem 0rem 0.1rem black, 0rem -2rem 2rem rgba(0, 0, 0, .1) inset;
+        margin-top: 0.9rem;
+    }
+    
+    .footer-ribbon .circle {
+        border: 1px solid rgb(56, 159, 248);
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        position: relative;
+        margin-bottom: 0.2rem;
+    }
+    
+    .footer-ribbon .fa-location-arrow, .footer-ribbon .fa-envelope, .footer-ribbon .fa-phone {
+        width: 5rem;
+        height: 1.2rem;
+        position: absolute;
+        top: 2.1rem;
+        left: 1.8rem;
+        color: white;
+    }
+    
+    .footer-ribbon h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #E7E7E8 !important;
+    }
+    
+    .footer-ribbon p {
+        font-size: 0.9rem;
+        color: white;
+    }
+    .footer ul {
+        margin-top: 2rem;
+    }
+    
+    .footer ul li {
+        border: 1px solid White;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 100%;
+        transition: all .2s;
+    }
+    
+    .footer ul li a {
+        color: white;
+        transition: all .2s;
+    }
+    
+    .footer ul li a:hover {
+        color: #5aaff7;
+    }
+    
+    .footer .copyright {
+        color: #777676;
+        margin-top: 4rem;
+    }
+    
+    .footer .designer {
+        color: #777676;
+    }
+    .footer .designer span{
+        color: #5aaff7;
+    }
+
+    /* footer starts here*/
+
+
+         /* extra small screen */
+
+    @media (max-width:575px){
+        .cfbox .row{background-color: black;}
+        .nav-cont{margin-top: 10px;}
+
+    }
+
+
+          /* small screen */
+
+
+    @media (max-width:767px){
+        .cfbox .row{
+            background-color: black;
+        }
+        .nav-cont{
+            margin-top: 100px;
+            margin-left: 0px;
+        }
+        .black .black-cont .row .nav{
+          margin-left: 100px;
+          margin-top: -50px;
+        }
+    }
+        /* medium screen */
+
+        @media (max-width: 1100px) {
+            .nav-cont{ margin-left: 0px;}
+            .black .black-cont .row .nav{margin-left: 100px;}
+    }
+
+
+         /* large screen */
+ @media (max-width: 1199px){
+    .black .black-cont .row .nav{margin-left: 100px;}
+    } 
+    
